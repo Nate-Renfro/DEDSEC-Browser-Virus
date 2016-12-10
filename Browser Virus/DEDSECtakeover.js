@@ -1,7 +1,7 @@
 /**
  * Created by nathan.renfro490 on 12/1/16.
  */
-//setTimeout(Element(), 7500);
+function takeover() {window.location = "TAKEOVER"}
 var ELEMENT_ARRAY = [];
 (function() {
     var elements = document.getElementsByClassName("DragElement");
