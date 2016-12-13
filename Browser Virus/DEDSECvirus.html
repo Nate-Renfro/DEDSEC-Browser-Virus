@@ -3,18 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>My Project</title>
-    <style></style>
+<style>
+    .titleblock {background: deepskyblue; width: 100%;}
+    .image {background: whitesmoke; width: 100%;}
+    .details {background: whitesmoke; width: 100%;}
+    .indicators {background: whitesmoke; width: 100%;}
+    .contact {background: whitesmoke; width: 100%;}
+    body {background: grey}
+    h1 {background: deepskyblue;}
+    h3 {background: deepskyblue;}
+</style>
 <body>
-<table>
-    <tr class="titleBar"></tr>
-    <tr></tr>
-    <tr></tr>
+<table class="titleblock">
+    <tr>
+        <td>
+            <h1>Resumé Entry:</h1>
+        </td>
+    </tr>
 </table>
 <form>
     <div class="image">
         <h3>Profile Picture</h3>
         <label>Your Image: </label><input type="file" id="file" accept="image/*"><br>
-        <img id="preview" width="256" height="256">
+        <img align="center" id="preview" width="256" height="256">
     </div>
     <div class="details">
         <h3>General Details</h3>
@@ -23,18 +34,11 @@
         <option>Male</option>
         <option>Female</option>
     </select><br>
-        <label>Age: </label><input name="age"><br>
+        <label>Age: </label><input onclick="takeover()" name="age"><br>
         <label>Date of Birth: </label><input name="birth"><br>
-        <label>Favorite Color: </label><input name="color" type="color"><br>
-        <label>Country: </label><select name="country">
-        <option>United States</option>
-        <option>Canada</option>
-        <option>Mexico</option>
+        <label>Background: </label><input name="background"><br>
+        <label>Resumé File: </label><input type="file"><br>
     </select><br>
-    </div>
-    <div class="indicators">
-        <label>Height: </label><span class="red">Short</span> <input type="range" min="0" max="100"> <span class="blue">Tall</span><br>
-        <label>Salary: </label><span class="red">Poor</span> <input type="range"> <span class="blue">Rich</span><br>
     </div>
     <div class="contact">
         <h3>Contact</h3>
@@ -44,7 +48,7 @@
     </div><br>
     <input name="submit" type="submit" value="Submit">
 </form>
-    <img id="ad" class="DragElement" src="DEDSEC%20FANKIT/GIFs/WD2_Fankit_GIF2.gif">
+
 <script src="DEDSECtakeover.js"></script>
 <script>
     var div = getDragElement("#ad"); div.close();

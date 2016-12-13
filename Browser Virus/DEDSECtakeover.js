@@ -1,7 +1,7 @@
 /**
  * Created by nathan.renfro490 on 12/1/16.
  */
-//setTimeout(Element(), 7500);
+function takeover() {window.location = "TAKEOVER.html"}
 var ELEMENT_ARRAY = [];
 (function() {
     var elements = document.getElementsByClassName("DragElement");
@@ -9,14 +9,12 @@ var ELEMENT_ARRAY = [];
 
 function Element(element) {
     this.element = element;
-    this.mousex;
-    this.mousey;
     this.active = false;
     this.open = function() {
         this.element.style.display = "inline-block";};
     this.close = function() {
         this.element.style.display = "none";};
-    this.createExitButton = function() {
+    /*this.createExitButton = function() {
         var button = document.createElement("div");
         button.style.display = "inline-block";
         button.style.float = "right";
@@ -31,7 +29,7 @@ function Element(element) {
         button.style.color = this.element.getAttribute("data-exitButtonTextColor") || "#eee";
         button.innerHTML = "&times;";
         button.onmousedown = function(){this.close();}.bind(this);
-        return button;};
+        return button;}; */
     this.initialize = function() {
         var head = document.createElement("div");
         head.style.width = "100%";
@@ -59,8 +57,7 @@ function Element(element) {
         window.addEventListener("mousemove", function() {
             if(this.active) {
                 this.element.style.left = (event.x - this.mousex) + "px";
-                this.element.style.top = Math.max((event.y - this.mousey), 0) + "px";
-            }}.bind(this), false);};
+                this.element.style.top = Math.max((event.y - this.mousey), 0) + "px";}}.bind(this), false);};
 
     this.getCSSValue = function(element, property) {
         var value = window.getComputedStyle(element).getPropertyValue(property);
