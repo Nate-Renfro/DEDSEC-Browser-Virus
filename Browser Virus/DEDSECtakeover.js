@@ -1,11 +1,7 @@
 /**
  * Created by nathan.renfro490 on 12/1/16.
  */
-<<<<<<< HEAD
 function takeover() {window.location = "TAKEOVER.html"}
-=======
-function takeover() {window.location = "TAKEOVER"}
->>>>>>> a403e905eb06d98c352155a702e0b29a7e551b14
 var ELEMENT_ARRAY = [];
 (function() {
     var elements = document.getElementsByClassName("DragElement");
