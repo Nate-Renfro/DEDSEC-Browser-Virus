@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="62910acd-b11a-4b65-97c6-4c57f8ba15c7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Browser Virus/DEDSECvirus.html" afterPath="$PROJECT_DIR$/Browser Virus/DEDSECvirus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Browser Virus/TAKEOVER.html" afterPath="$PROJECT_DIR$/Browser Virus/TAKEOVER.html" />
     </list>
     <ignored path="DEDSEC-Browser-Virus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DEDSECvirus.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DEDSECvirus.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Browser Virus/DEDSECvirus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="285">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -44,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DEDSECtakeover.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DEDSECtakeover.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Browser Virus/DEDSECtakeover.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -71,8 +70,8 @@
       <list>
         <option value="$PROJECT_DIR$/Browser Virus/takeover.html" />
         <option value="$PROJECT_DIR$/Browser Virus/DEDSECtakeover.js" />
-        <option value="$PROJECT_DIR$/Browser Virus/DEDSECvirus.html" />
         <option value="$PROJECT_DIR$/Browser Virus/TAKEOVER.html" />
+        <option value="$PROJECT_DIR$/Browser Virus/DEDSECvirus.html" />
       </list>
     </option>
   </component>
@@ -241,15 +240,15 @@
       <workItem from="1481330855459" duration="1447000" />
       <workItem from="1481589062119" duration="2098000" />
       <workItem from="1481670563925" duration="616000" />
-      <workItem from="1481756725800" duration="532000" />
+      <workItem from="1481756725800" duration="797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5200000" />
+    <option name="totallyTimeSpent" value="5465000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="23" width="1397" height="877" extended-state="1" />
+    <frame x="43" y="23" width="1397" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27158672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -399,18 +398,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Browser Virus/DEDSECvirus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Browser Virus/DEDSECtakeover.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Browser Virus/DEDSECvirus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding />
         </state>
       </provider>
